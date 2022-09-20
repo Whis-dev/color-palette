@@ -165,6 +165,11 @@
     esbuild "^0.15.7"
     set-cookie-parser "^2.4.8"
 
+"@sveltejs/adapter-static@^1.0.0-next.43":
+  version "1.0.0-next.43"
+  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-static/-/adapter-static-1.0.0-next.43.tgz#1505075d9d6ee2e0bac3dde250a7264235e73015"
+  integrity sha512-PAgSp1GA8HkYE4p30/sBvJme2nefhcTBJafqQdMNoUksWZF2WzuL8OEO8wa9ndE6cghcGk3j6Ve0Oskg/wtTOw==
+
 "@sveltejs/adapter-vercel@1.0.0-next.76":
   version "1.0.0-next.76"
   resolved "https://registry.yarnpkg.com/@sveltejs/adapter-vercel/-/adapter-vercel-1.0.0-next.76.tgz#4749413080a187c14995d7f74176899c18824c1b"
