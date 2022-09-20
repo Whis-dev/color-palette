@@ -18,9 +18,6 @@ const config = {
 			assets: 'build',
 			fallback: null
 		}),
-		// paths: {
-		// 	base: dev ? '' : '/color-palette'
-		// },
 		trailingSlash: 'always'
 	}
 };
