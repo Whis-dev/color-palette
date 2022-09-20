@@ -14,6 +14,9 @@ const config = {
 			assets: 'build',
 			fallback: null
 		}),
+		paths: {
+			base: '/color-palette'
+		},
 		trailingSlash: 'always'
 	}
 };
