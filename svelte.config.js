@@ -2,7 +2,9 @@
 import adapter from '@sveltejs/adapter-static';
 import preprocess from 'svelte-preprocess';
 
-const dev = process.env.NODE_ENV === 'development';
+// const dev = process.env.NODE_ENV === 'development';
+
+// console.log(process.env)
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -14,11 +16,12 @@ const config = {
 		adapter: adapter({
 			pages: 'build',
 			assets: 'build',
-			fallback: 'app.html'
+			fallback: null
 		}),
-		paths: {
-			base: dev ? '' : '/color-palette'
-		}
+		// paths: {
+		// 	base: dev ? '' : '/color-palette'
+		// },
+		trailingSlash: 'always'
 	}
 };
 
