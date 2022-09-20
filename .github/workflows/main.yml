@@ -16,15 +16,7 @@ jobs:
           npm install
           npm run build
 
-      - name: Upload build and .svelte-kit folder
-        uses: actions/upload-artifact@v2
-        with:
-          name: .svelte-kit
-          if-no-files-found: error
-          path: .svelte-kit
-
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@4.1.5
         with:
           branch: gh-pages
-          folder: build
